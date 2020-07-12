@@ -1,0 +1,20 @@
+/* body{
+    background-color: black;
+}
+@media only screen and (min-width:360px) and (max-width:1440px){
+    #move{
+       min-width: 1000px;
+    }
+}
+@media only screen and (max-width:1430px) and (min-width:360px){
+    .slide img{
+       position: relative;
+       top:-136px;
+    }
+}
+.card{
+    flex-wrap: wrap;
+}
+.card-1,.card-2,.card-3{
+    flex-basis: 46%; */
+}   

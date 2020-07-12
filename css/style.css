@@ -1,0 +1,276 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(243, 234, 234);
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+   
+}
+.navbar::before{
+    content: " ";
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 104px;
+    width:100%;
+    background-color: lightskyblue;
+    opacity: .7;
+    z-index: -1;
+}
+.navbar img{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.navbar ul{
+    display: flex;
+    align-self: center;
+    list-style: none;
+    /* justify-content: space-between; */
+}
+.navbar ul li {
+    margin:20px;
+    padding:10px;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:black;
+    opacity: .5;
+    transition: letter-spacing 1s ;
+    font-family: 'Galada', cursive;
+    
+}
+.navbar ul li a:hover{
+    opacity: 1;
+    cursor: pointer;
+    letter-spacing: .1em;
+    /* color:rgb(240, 240, 2); */
+}
+
+.slide img{
+    position: relative;
+    top:-113px;
+    z-index: -3;
+}
+.img1{
+    box-shadow: 40px 14px 68px -11px  black;
+}
+.marg{
+    width: 1300px;;
+    margin: auto;
+    /* border-radius: 20px; */
+    margin-bottom:66px;
+}
+.color{
+    background-color: lightslategrey;
+    border-radius: 20px;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    font-size: bold;
+    margin-bottom: 30px;
+    font-family: 'Merienda One', cursive;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    /* letter-spacing: 3px; */
+}
+h3{
+    font-size: 2rem;
+}
+p{
+    font-family: 'Satisfy', cursive;
+}
+.card{
+    display: flex;
+    flex-basis: 30%;
+    justify-content: space-between;
+    text-align: center;
+    width: 1300px;
+}
+.card p{
+    font-size: 18px;
+}
+.card-1,.card-2, .card-3{
+    border:2px solid black;
+    border-radius: 20px;
+    margin: 20px;
+    width: 440px;
+    height: 470px;
+    transition: transform 1s;
+    flex-basis: 33%;
+}
+.card-1:hover,.card-2:hover, .card-3:hover{
+    transform: scale(1.05);
+}
+.card-1{
+    background-color: lightsalmon;
+}
+.card-2{
+    background-color: rgb(92, 89, 88);
+}
+.card-3{
+    background-color: rgb(151, 91, 71);
+}
+.card img{
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+/* Academic section  */
+.color1{
+    border-radius: 20px;
+    background-color: rgb(189, 156, 156);
+}
+/* .flex3{
+    display: flex;
+    flex-direction: column;
+    
+} */
+.flex2{
+    display:flex;
+    flex-wrap: wrap;
+}
+.wid{
+    flex-basis: 50%;
+    /* margin:40px; */
+    /* border:2px solid black; */
+
+}
+.wid img{
+    transition: transform 1s;
+}
+.wid img:hover{
+    transform: scale(1.05);
+}
+.content, .wid img{
+    /* border:2px solid black; */
+    width: 554px;;
+    margin: 3rem;
+    border-radius: 20px;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 2rem;
+}
+/* addmission section */
+.addmission{
+    text-align: center;
+    width: 100%;
+    height: 410px;
+}
+.addmission h1{
+    position: relative;
+    left: 3%;
+    bottom:36%;
+}
+.addmission button{
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    font-weight: 100px;
+    bottom:160px;
+    left: 3%;
+    border-radius: 10px;
+}
+.addmission img{
+    z-index: 1;
+    opacity: .8;
+}
+.addmission::before{
+    content: " ";
+    position: absolute;
+    left:0px;
+    width: 100%;
+    height: 350px;
+    background-color: rgb(104, 8, 230);
+    z-index: -1;
+    opacity: .8;
+}
+
+
+#btn{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    transition: all 1s;
+}
+#btn:hover{
+    cursor: pointer;
+    background-color:rgb(102, 67, 67) ;
+    /* font-family: 'Galada', cursive; */
+    color: lightgreen;
+}
+
+
+
+/* =================================================*************************** */
+/* form section  */
+
+
+#form{
+    text-align: center;
+    margin-bottom: 100px;
+    height: 365px;
+}
+.color2::before{
+    content:" ";
+    position: absolute;;
+    left:0px;
+    width: 100%;
+    height: 365px;
+    background: url('../img/study1.webp') no-repeat center center/cover;
+    z-index:-1;
+    border-radius: 20px;
+    border:4px solid black;
+}
+#tab{
+    text-align: center;
+    /* margin-top: 20px; */
+}
+/* .color2{
+    background-color:lightsalmon;
+} */
+.student_info{
+    width: 667px;
+    margin: auto;
+    background-color: lightskyblue;
+    height: 240px;
+    /* margin-top: 20px; */
+    border-radius: 20px;
+}
+
+.student_margin{
+    padding-top:20px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+input[type=submit]{
+    margin-top: 16px;
+    width: 300px;
+    padding: 5px;
+    font-size: 20px;
+}
+.last{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
